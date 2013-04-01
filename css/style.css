@@ -1,0 +1,346 @@
+	body:not(#sidebar) {
+		width: 65em;	
+		background-color: #efefef;
+		margin-left:auto;
+		margin-right:auto;
+		
+		
+	
+	
+	}
+	
+	body * {
+		
+		
+				
+		transition: width 0.25s, height 0.25s, transform 0.25s;
+		-moz-transition: width 0.25s, height 0.25s, -moz-transform 0.25s;
+		-webkit-transition: width 0.25s, height 0.25s, -webkit-transform 0.25s;
+		-o-transition: width 0.25s, height 0.25s, -o-transform 0.25s;
+	}
+	
+	nav {
+		width:100%;
+		height:100%;
+		padding:0.6em;		
+		background-color: #5a86d5;
+		display:inline-block;
+	}
+	
+	nav > * {
+		
+		display:inline-block;
+
+	}
+	
+	#title {
+		
+		text-align:center;
+		width:85%;
+		
+		margin-left: 0em;
+		display: inline-block;
+		padding:0.2em;	
+		color:white;
+		font-size:2.2em;
+		font-family:'Arial';
+		font-weight: bold;
+	}
+	
+	#title > * {
+
+		display:inline;
+		padding:0.2em;
+		
+	}
+	
+	#title > div{
+		font-size:1.1em;
+	}
+	
+	#title span{
+		margin-left:0.1em;
+		border-style:solid;
+	}
+	
+	
+	#logout{
+		cursor: pointer;
+		float:right;
+		padding:0em;
+		
+	}
+	
+	
+	.nav_but {
+
+		cursor:pointer;
+		display:inline;
+		float:left;
+		padding:0.1em;
+		margin-left:0.3em;
+		margin-right:0.1em;
+		margin-top:0.3em;
+				
+		color:white;
+		text-align:center;
+		
+		
+	}
+	
+	#JORNADAS, #CONFIG {
+		display: none;
+	}
+	
+
+	
+	.section{
+		
+		height:100%;
+		background-color: #fbfbfb;
+		
+		padding: 2em;
+		margin-top: 0.2em;
+		margin-bottom: 3em;
+		
+
+	}
+	
+	.section#main{
+				
+		width:50em;	
+		float:right;
+	}
+	
+	.section#sidebar{
+		
+		width:6.7em;
+		height: 31.6em;	
+		float:left;
+		
+		background-color: #fbfbfb;
+		/*box-shadow: 2em 2em 2em #888888;*/
+	}
+	
+	.section > * {
+		height: 100%;
+	}
+	
+	#quiniela {
+		box-shadow: 0.5em 0.5em 2em #dddddd;	
+		float:left;
+		height:auto;
+		
+		border-style: solid;		
+	}
+	
+	#jorn_select{
+		
+		width: 24em;
+		
+		/*padding:1em;*/
+		
+		text-align: center;
+		
+		font-size: 1.5em;
+		font-family: 'Arial Narrow';/*'Avenir Next Condensed';*/
+		color: #5a86d5;
+		text-transform: uppercase;
+		
+		margin-left: auto;
+		margin-right: auto;
+		
+		margin-bottom:1em;
+		
+		background-color: white;
+		border-style: solid;
+		border-color: #5a86d5;
+	}
+	
+	#jorn_select {
+		width: 24em;
+
+		margin-left: auto;
+		margin-right: auto;
+
+		padding:0.1em;
+
+		font-size: 1.5em;
+
+		background-color: white;
+
+		border-style:solid;
+		border-color: #5a86d5;	
+	}
+
+	#jorn_select * {
+		display:inline;
+
+	}
+	#jorn_select #jornada {
+		margin-left:0.4em;
+	}
+
+	#jorn_select #fecha {
+		text-transform: lowercase;
+	}
+
+	#jorn_select input{
+		
+		text-align: center;
+		
+		font-family: 'Arial Narrow';
+		color: #5a86d5;
+		text-transform: uppercase;
+		font-size: 1em;
+
+		border-style:none;
+	}
+	
+	#jorn_select #incr {
+		
+		background-color:none;
+		font-size: 1em;
+		font-family: 'Arial Narrow';/*'Avenir Next Condensed';*/
+		color: white;
+		
+		float:right;
+
+	}
+	
+	#jorn_select #decr {
+		
+		background-color:none;
+		font-size: 1em;
+		font-family: 'Arial Narrow';/*'Avenir Next Condensed';*/
+		color: white;
+		float:left;
+
+	}
+	
+	#decr img, #incr img {
+		cursor:pointer;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		margin-top:0.1em;
+		width:0,8em;
+		height:1.2em;
+	}
+	
+	#visor {
+		display:none;
+		
+		padding:0.3em;
+		
+		width: 15em;
+		
+		height:3em;	
+		
+		margin-left: auto;
+		margin-right: auto;
+
+		
+		background-color: #5a86d5;
+		
+		border-radius: 0.5em;
+	}
+	
+	.vis_win {
+
+		width:25%;
+		
+		float:left;
+		display:inline-block;
+		
+		margin-left: 0.2em;
+		margin-right: 0.2em;
+		margin-top:0.1em;
+		
+		padding:0.1em;
+		
+		border-radius: 0.5em;
+		
+		background-color: white;
+		
+		text-align: center;
+		
+		font-size: 2em;
+		font-weight: bold;
+		font-family: 'Arial Narrow';/*'Avenir Next Condensed';*/
+		color: black;
+		text-transform: uppercase;
+		
+	}
+	
+	area{
+		cursor:pointer;
+	}
+
+	
+
+	
+	#selector {
+		width: 25em;
+		
+		float:right;
+		margin-left: auto;
+		margin-right: auto;
+		
+		
+		
+	}
+	
+	#selector < *{
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	
+	#triangulo {
+		margin-left: auto;
+		margin-right: auto;
+		width:340px;
+		height: 25em;
+		
+	}
+	
+	#triangulo > img {
+		margin-top:2em;
+	}
+	
+	#alerta {
+		background-color: #ffffcc;
+		
+		text-align:center;
+		font-family: 'Arial Narrow';
+		
+		padding:1em;
+	}	
+
+	.back *{
+		display:none;
+	}
+	
+	#send_but {
+		cursor:pointer;
+		float:right;
+
+		width: 4.5em;
+		display:inline-block;
+		padding:0.3em;
+		
+		margin-top: 0.5em;
+		margin-left:0.2em;
+
+		text-align:center;
+		font-family: 'Arial Narrow';/*'Avenir Next Condensed';*/
+		color: #fbfbfb;
+		text-transform: uppercase;
+
+		background-color: #5a86d5;
+		border-style:solid;
+		border-color:black;
+		border-width:0.15em;
+		border-radius:0.4em;
+	}
+	
